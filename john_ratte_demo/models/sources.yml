@@ -1,0 +1,15 @@
+version: 2 
+
+sources:
+  - name: john_ratte_demo_raw
+    database: john_ratte_demo
+    schema: raw
+    tables:
+      - name: address
+      - name: cart
+      - name: cart_item
+      - name: customer
+      - name: order_status
+      - name: order_tracking
+      - name: orders
+      - name: product
